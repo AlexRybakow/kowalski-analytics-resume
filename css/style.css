@@ -633,8 +633,9 @@
   
   /* PERSONAL PROJECT */
   
-  .personal-projects {
+  .personal-projects .container{
     background: var(--c-dark);
+    overflow-x: hidden;
   }
   
   .personal-project-item-container {
