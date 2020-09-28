@@ -141,6 +141,30 @@
     color: var(--txt-c-light);
   }
 
+  .back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+  }
+
+  .back-to-top:hover {
+    background: var(--c-accent);
+  }
+  
+  .back-to-top-show {
+    display: block;
+  }
+
   .modal {
     position: fixed;
     top: 0;
@@ -635,9 +659,8 @@
   
   /* PERSONAL PROJECT */
   
-  .personal-projects .container{
+  .personal-projects {
     background: var(--c-dark);
-    overflow-x: hidden;
   }
   
   .personal-project-item-container {
