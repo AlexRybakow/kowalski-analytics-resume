@@ -73,10 +73,12 @@
 
   html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
   }
   
   body {
     font-family: var(--font-main);
+    overflow-x: hidden;
   }
 
   
