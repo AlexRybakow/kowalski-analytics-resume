@@ -243,12 +243,12 @@
   display: flex;  
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: auto;
   padding: 20px 10px;
   }
 
   .my-video-content {
-    width: 100%;
+    width: auto;
   }
 
   .my-video-close-btn {
