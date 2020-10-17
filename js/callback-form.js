@@ -63,7 +63,7 @@ callbackForm.addEventListener('submit', function (event) {
 });
 
 function isPhoneValid(phone = '') {
-    const regexp = /(\+38)?\(?\d{3}\)?[\s\.-]?(\d{7}|\d{3}[\s\.-]\d{2}[\s\.-]\d{2}|\d{3}-\d{4})/;
+    const regexp = /(\+38)?\(?\d{3}\)?[\s\.-]?(\d{9}|\d{3}[\s\.-]\d{2}[\s\.-]\d{2}|\d{3}-\d{4})/;
 
     return phone.match(regexp);
 }
