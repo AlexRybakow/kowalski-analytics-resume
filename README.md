@@ -1,2 +1,2 @@
 # kowalski-analytics-resume
-My website resume for clients
+Test project "website-resume for clients", made during GoIt JavaScript mini-course.
